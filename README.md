@@ -1,16 +1,12 @@
-# gallery.pm
+# UIKit Gallery
 
-Simple responsive image gallery with UIKit's Lightbox functionality, based on [justinklemm's](https://codepen.io/justinklemm/pen/iCelj) image gallery.
+Simple responsive image gallery utilizing UIKit's flex layout and lightbox components. 
 
 ## Demo
 
-https://codepen.io/BitRain/full/GPPqOP
+https://codepen.io/BitRain/pen/gqjbKO
 
 ## Depends 
 
-on JQuery 2.1.3 https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js
+on UIKit https://getuikit.com/docs/installation > 3.0.0
 
-## Todo
-
-* Change to SCSS for importing UIKit libraries for specific classes instead of globablly.
-* rebuild with newer jquery version.
