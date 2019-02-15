@@ -1,134 +1,120 @@
-<!DOCTYPE html>
-<html lang="en" >
 
-<head>
-  <meta charset="UTF-8">
-  <title>btr.pm</title>
+
+<base href="https://btr-pm.firebaseapp.com/">
+
+<!-- Anything wrapped in an <a href> referencing an image in the 'uk-lightbox' div will make it a clickable image to show the lightbox -->
+
+<!-- uk-child-width-1-3@m controls the amount of columns in the gallery, chaning it to 1-4@m would make it 4 images across -->
+
+<div uk-lightbox="animation:fade" class="uk-grid-collapse uk-child-width-1-3@s uk-child-width-1-3@m" uk-grid="masonry: true"> 
   
   
-  
-      <link rel="stylesheet" href="css/style.css">
+ 
+        <a href="img/015.jpg"><div><img src="/img-s/015.jpg" height="600" alt="" uk-img></div>
 
-  
-</head>
+  <a href="img/016.jpg"><div><img src="img-s/016.jpg" height="600" alt="" uk-img></div>
+  <a href="img/001.jpg"><div><img src="img-s/001.jpg" height="600" alt="" uk-img></div>
 
-<body>
+  <a href="img/026.jpg"><div><img src="img-s/026.jpg" height="600" alt="" uk-img></div>
+  <a href="img/041.jpg"><div><img src="img-s/041.jpg" height="600" alt="" uk-img></div>
+  <a href="img/007.jpg"><div><img src="img-s/007.jpg" height="600" alt="" uk-img></div>
 
-  <div uk-lightbox class="gallery">
-  <a href="https://btr-pm.firebaseapp.com/img/015.jpg"><img src="https://btr-pm.firebaseapp.com/img/015.jpg"></a>
-  <a href="https://btr-pm.firebaseapp.com/img/016.jpg"><img src="https://btr-pm.firebaseapp.com/img/016.jpg"></a>
-  <a href="https://btr-pm.firebaseapp.com/img/001.jpg"><img src="https://btr-pm.firebaseapp.com/img/001.jpg"></a>
+  <a href="img/006.jpg"><div><img src="img-s/006.jpg" height="600" alt="" uk-img></div>
+  <a href="img/052.jpg"><div><img src="img-s/052.jpg" height="600" alt="" uk-img></div>
+  <a href="img/023.jpg"><div><img src="img-s/023.jpg" height="600" alt="" uk-img></div>
 
-  <a href="https://btr-pm.firebaseapp.com/img/026.jpg"><img src="https://btr-pm.firebaseapp.com/img/026.jpg"></a>
-  <a href="https://btr-pm.firebaseapp.com/img/041.jpg"><img src="https://btr-pm.firebaseapp.com/img/041.jpg"></a>
-  <a href="https://btr-pm.firebaseapp.com/img/007.jpg"><img src="https://btr-pm.firebaseapp.com/img/007.jpg"></a>
-
-  <a href="https://btr-pm.firebaseapp.com/img/006.jpg"><img src="https://btr-pm.firebaseapp.com/img/006.jpg"></a>
-  <a href="https://btr-pm.firebaseapp.com/img/052.jpg"><img src="https://btr-pm.firebaseapp.com/img/052.jpg"></a>
-  <a href="https://btr-pm.firebaseapp.com/img/023.jpg"><img src="https://btr-pm.firebaseapp.com/img/023.jpg"></a>
-
-  <a href="https://btr-pm.firebaseapp.com/img/073.jpg"><img src="https://btr-pm.firebaseapp.com/img/073.jpg"></a>
-  <a href="https://btr-pm.firebaseapp.com/img/077.jpg"><img src="https://btr-pm.firebaseapp.com/img/077.jpg"></a>
-
-  <a href="https://btr-pm.firebaseapp.com/img/055.jpg"><img src="https://btr-pm.firebaseapp.com/img/055.jpg"></a>
-  <a href="https://btr-pm.firebaseapp.com/img/056.jpg"><img src="https://btr-pm.firebaseapp.com/img/056.jpg"></a>
-  <a href="https://btr-pm.firebaseapp.com/img/053.jpg"><img src="https://btr-pm.firebaseapp.com/img/053.jpg"></a>
-
-  <a href="https://btr-pm.firebaseapp.com/img/082.jpg"><img src="https://btr-pm.firebaseapp.com/img/082.jpg"></a>
-  <a href="https://btr-pm.firebaseapp.com/img/080.jpg"><img src="https://btr-pm.firebaseapp.com/img/080.jpg"></a>
-  <a href="https://btr-pm.firebaseapp.com/img/081.jpg"><img src="https://btr-pm.firebaseapp.com/img/081.jpg"></a>
-
-  <a href="https://btr-pm.firebaseapp.com/img/0691.jpg"><img src="https://btr-pm.firebaseapp.com/img/061.jpg"></a>
-  <a href="https://btr-pm.firebaseapp.com/img/075.jpg"><img src="https://btr-pm.firebaseapp.com/img/075.jpg"></a>
-  <a href="https://btr-pm.firebaseapp.com/img/099.jpg"><img src="https://btr-pm.firebaseapp.com/img/099.jpg"></a>
-
-  <a href="https://btr-pm.firebaseapp.com/img/087.jpg"><img src="https://btr-pm.firebaseapp.com/img/087.jpg"></a>
-  <a href="https://btr-pm.firebaseapp.com/img/088.jpg"><img src="https://btr-pm.firebaseapp.com/img/088.jpg"></a>
-  <a href="https://btr-pm.firebaseapp.com/img/089.jpg"><img src="https://btr-pm.firebaseapp.com/img/089.jpg"></a>
-
-  <a href="https://btr-pm.firebaseapp.com/img/085.jpg"><img src="https://btr-pm.firebaseapp.com/img/085.jpg"></a>
-  <a href="https://btr-pm.firebaseapp.com/img/093.jpg"><img src="https://btr-pm.firebaseapp.com/img/093.jpg"></a>
-  <a href="https://btr-pm.firebaseapp.com/img/086.jpg"><img src="https://btr-pm.firebaseapp.com/img/086.jpg"></a>
-
-  <a href="https://btr-pm.firebaseapp.com/img/021.jpg"><img src="https://btr-pm.firebaseapp.com/img/021.jpg"></a>
-  <a href="https://btr-pm.firebaseapp.com/img/019.jpg"><img src="https://btr-pm.firebaseapp.com/img/019.jpg"></a>
-  <a href="https://btr-pm.firebaseapp.com/img/020.jpg"><img src="https://btr-pm.firebaseapp.com/img/020.jpg"></a>
-
-  <a href="https://btr-pm.firebaseapp.com/img/098.jpg"><img src="https://btr-pm.firebaseapp.com/img/098.jpg"></a>
-  <a href="https://btr-pm.firebaseapp.com/img/097.jpg"><img src="https://btr-pm.firebaseapp.com/img/097.jpg"></a>
-  <a href="https://btr-pm.firebaseapp.com/img/096.jpg"><img src="https://btr-pm.firebaseapp.com/img/096.jpg"></a>
-
-  <a href="https://btr-pm.firebaseapp.com/img/100.jpg"><img src="https://btr-pm.firebaseapp.com/img/100.jpg"></a>
-  <a href="https://btr-pm.firebaseapp.com/img/101.jpg"><img src="https://btr-pm.firebaseapp.com/img/101.jpg"></a>
-  <a href="https://btr-pm.firebaseapp.com/img/090.jpg"><img src="https://btr-pm.firebaseapp.com/img/090.jpg"></a>
-
-  <a href="https://btr-pm.firebaseapp.com/img/095.jpg"><img src="https://btr-pm.firebaseapp.com/img/095.jpg"></a>
-  <a href="https://btr-pm.firebaseapp.com/img/091.jpg"><img src="https://btr-pm.firebaseapp.com/img/091.jpg"></a>
-  <a href="https://btr-pm.firebaseapp.com/img/083.jpg"><img src="https://btr-pm.firebaseapp.com/img/083.jpg"></a>
-
-  <a href="https://btr-pm.firebaseapp.com/img/047.jpg"><img src="https://btr-pm.firebaseapp.com/img/047.jpg"></a>
-  <a href="https://btr-pm.firebaseapp.com/img/045.jpg"><img src="https://btr-pm.firebaseapp.com/img/045.jpg"></a>
-  <a href="https://btr-pm.firebaseapp.com/img/025.jpg"><img src="https://btr-pm.firebaseapp.com/img/025.jpg"></a>
-
-  <a href="https://btr-pm.firebaseapp.com/img/030.jpg"><img src="https://btr-pm.firebaseapp.com/img/030.jpg"></a>
-  <a href="https://btr-pm.firebaseapp.com/img/029.jpg"><img src="https://btr-pm.firebaseapp.com/img/029.jpg"></a>
-  <a href="https://btr-pm.firebaseapp.com/img/028.jpg"><img src="https://btr-pm.firebaseapp.com/img/028.jpg"></a>
-
-  <a href="https://btr-pm.firebaseapp.com/img/033.jpg"><img src="https://btr-pm.firebaseapp.com/img/033.jpg"></a>
-  <a href="https://btr-pm.firebaseapp.com/img/050.jpg"><img src="https://btr-pm.firebaseapp.com/img/050.jpg"></a>
-  <a href="https://btr-pm.firebaseapp.com/img/032.jpg"><img src="https://btr-pm.firebaseapp.com/img/032.jpg"></a>
-
-  <a href="https://btr-pm.firebaseapp.com/img/035.jpg"><img src="https://btr-pm.firebaseapp.com/img/035.jpg"></a>
-  <a href="https://btr-pm.firebaseapp.com/img/064.jpg"><img src="https://btr-pm.firebaseapp.com/img/064.jpg"></a>
-  <a href="https://btr-pm.firebaseapp.com/img/013.jpg"><img src="https://btr-pm.firebaseapp.com/img/013.jpg"></a>
-
-  <a href="https://btr-pm.firebaseapp.com/img/066.jpg"><img src="https://btr-pm.firebaseapp.com/img/066.jpg"></a>
-  <a href="https://btr-pm.firebaseapp.com/img/057.jpg"><img src="https://btr-pm.firebaseapp.com/img/057.jpg"></a>
-  <a href="https://btr-pm.firebaseapp.com/img/067.jpg"><img src="https://btr-pm.firebaseapp.com/img/067.jpg"></a>
-  <a href="https://btr-pm.firebaseapp.com/img/059.jpg"><img src="https://btr-pm.firebaseapp.com/img/059.jpg"></a>
-
-  <a href="https://btr-pm.firebaseapp.com/img/078.jpg"><img src="https://btr-pm.firebaseapp.com/img/078.jpg"></a>
-  <a href="https://btr-pm.firebaseapp.com/img/074.jpg"><img src="https://btr-pm.firebaseapp.com/img/074.jpg"></a>
-  <a href="https://btr-pm.firebaseapp.com/img/079.jpg"><img src="https://btr-pm.firebaseapp.com/img/079.jpg"></a>
-
-  <a href="https://btr-pm.firebaseapp.com/img/008.jpg"><img src="https://btr-pm.firebaseapp.com/img/008.jpg"></a>
-  <a href="https://btr-pm.firebaseapp.com/img/038.jpg"><img src="https://btr-pm.firebaseapp.com/img/038.jpg"></a>
-  <a href="https://btr-pm.firebaseapp.com/img/092.jpg"><img src="https://btr-pm.firebaseapp.com/img/092.jpg"></a>
-  <a href="https://btr-pm.firebaseapp.com/img/039.jpg"><img src="https://btr-pm.firebaseapp.com/img/039.jpg"></a>
-
-  <a href="https://btr-pm.firebaseapp.com/img/058.jpg"><img src="https://btr-pm.firebaseapp.com/img/058.jpg"></a>
-  <a href="https://btr-pm.firebaseapp.com/img/060.jpg"><img src="https://btr-pm.firebaseapp.com/img/060.jpg"></a>
-  <a href="https://btr-pm.firebaseapp.com/img/065.jpg"><img src="https://btr-pm.firebaseapp.com/img/065.jpg"></a>
-  <a href="https://btr-pm.firebaseapp.com/img/094.jpg"><img src="https://btr-pm.firebaseapp.com/img/094.jpg"></a>
-
-  <a href="https://btr-pm.firebaseapp.com/img/022.jpg"><img src="https://btr-pm.firebaseapp.com/img/022.jpg"></a>
-  <a href="https://btr-pm.firebaseapp.com/img/042.jpg"><img src="https://btr-pm.firebaseapp.com/img/042.jpg"></a>
-  <a href="https://btr-pm.firebaseapp.com/img/040.jpg"><img src="https://btr-pm.firebaseapp.com/img/040.jpg"></a>
-
-  <a href="https://btr-pm.firebaseapp.com/img/051.jpg"><img src="https://btr-pm.firebaseapp.com/img/051.jpg"></a>
-  <a href="https://btr-pm.firebaseapp.com/img/014.jpg"><img src="https://btr-pm.firebaseapp.com/img/014.jpg"></a>
-  <a href="https://btr-pm.firebaseapp.com/img/012.jpg"><img src="https://btr-pm.firebaseapp.com/img/012.jpg"></a>
-
-  <a href="https://btr-pm.firebaseapp.com/img/024.jpg"><img src="https://btr-pm.firebaseapp.com/img/024.jpg"></a>
-  <a href="https://btr-pm.firebaseapp.com/img/043.jpg"><img src="https://btr-pm.firebaseapp.com/img/043.jpg"></a>
-  <a href="https://btr-pm.firebaseapp.com/img/036.jpg"><img src="https://btr-pm.firebaseapp.com/img/036.jpg"></a>
-
-  <a href="https://btr-pm.firebaseapp.com/img/002.jpg"><img src="https://btr-pm.firebaseapp.com/img/002.jpg"></a>
-  <a href="https://btr-pm.firebaseapp.com/img/009.jpg"><img src="https://btr-pm.firebaseapp.com/img/009.jpg"></a>
-  <a href="https://btr-pm.firebaseapp.com/img/005.jpg"><img src="https://btr-pm.firebaseapp.com/img/005.jpg"></a>
-  <a href="https://btr-pm.firebaseapp.com/img/004.jpg"><img src="https://btr-pm.firebaseapp.com/img/004.jpg"></a>
-</div>
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.26/js/uikit.min.js'></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.26/js/uikit-icons.min.js'></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-
+  <a href="img/073.jpg"><div><img src="img-s/073.jpg" height="600" alt="" uk-img></div>
+    <a href="img/077.jpg"><div><img src="img-s/077.jpg" height="600" alt="" uk-img></div>
   
 
-    <script  src="js/index.js"></script>
+  <a href="img/055.jpg"><div><img src="img-s/055.jpg" height="600" alt="" uk-img></div>
+  <a href="img/056.jpg"><div><img src="img-s/056.jpg" height="600" alt="" uk-img></div>
+  <a href="img/053.jpg"><div><img src="img-s/053.jpg" height="600" alt="" uk-img></div>
 
+  <a href="img/082.jpg"><div><img src="img-s/082.jpg" height="600" alt="" uk-img></div>
+  <a href="img/080.jpg"><div><img src="img-s/080.jpg" height="600" alt="" uk-img></div>
+  <a href="img/081.jpg"><div><img src="img-s/081.jpg" height="600" alt="" uk-img></div>
 
+  <a href="img/061.jpg"><div><img src="img-s/061.jpg" height="600" alt="" uk-img></div>
+  <a href="img/075.jpg"><div><img src="img-s/075.jpg" height="600" alt="" uk-img></div>
+  <a href="img/099.jpg"><div><img src="img-s/099.jpg" height="600" alt="" uk-img></div>
 
+  <a href="img/087.jpg"><div><img src="img-s/087.jpg" height="600" alt="" uk-img></div>
+  <a href="img/088.jpg"><div><img src="img-s/088.jpg" height="600" alt="" uk-img></div>
+  <a href="img/089.jpg"><div><img src="img-s/089.jpg" height="600" alt="" uk-img></div>
 
-</body>
+  <a href="img/085.jpg"><div><img src="img-s/085.jpg" height="600" alt="" uk-img></div>
+  <a href="img/093.jpg"><div><img src="img-s/093.jpg" height="600" alt="" uk-img></div>
+  <a href="img/086.jpg"><div><img src="img-s/086.jpg" height="600" alt="" uk-img></div>
 
-</html>
+  <a href="img/021.jpg"><div><img src="img-s/021.jpg" height="600" alt="" uk-img></div>
+  <a href="img/019.jpg"><div><img src="img-s/019.jpg" height="600" alt="" uk-img></div>
+  <a href="img/020.jpg"><div><img src="img-s/020.jpg" height="600" alt="" uk-img></div>
+
+  <a href="img/098.jpg"><div><img src="img-s/098.jpg" height="600" alt="" uk-img></div>
+  <a href="img/097.jpg"><div><img src="img-s/097.jpg" height="600" alt="" uk-img></div>
+  <a href="img/096.jpg"><div><img src="img-s/096.jpg" height="600" alt="" uk-img></div>
+
+  <a href="img/100.jpg"><div><img src="img-s/100.jpg" height="600" alt="" uk-img></div>
+  <a href="img/101.jpg"><div><img src="img-s/101.jpg" height="600" alt="" uk-img></div>
+  <a href="img/090.jpg"><div><img src="img-s/090.jpg" height="600" alt="" uk-img></div>
+
+  <a href="img/095.jpg"><div><img src="img-s/095.jpg" height="600" alt="" uk-img></div>
+  <a href="img/091.jpg"><div><img src="img-s/091.jpg" height="600" alt="" uk-img></div>
+  <a href="img/083.jpg"><div><img src="img-s/083.jpg" height="600" alt="" uk-img></div>
+
+  <a href="img/047.jpg"><div><img src="img-s/047.jpg" height="600" alt="" uk-img></div>
+  <a href="img/045.jpg"><div><img src="img-s/045.jpg" height="600" alt="" uk-img></div>
+  <a href="img/025.jpg"><div><img src="img-s/025.jpg" height="600" alt="" uk-img></div>
+
+  <a href="img/030.jpg"><div><img src="img-s/030.jpg" height="600" alt="" uk-img></div>
+  <a href="img/029.jpg"><div><img src="img-s/029.jpg" height="600" alt="" uk-img></div>
+  <a href="img/028.jpg"><div><img src="img-s/028.jpg" height="600" alt="" uk-img></div>
+
+  <a href="img/033.jpg"><div><img src="img-s/033.jpg" height="600" alt="" uk-img></div>
+  <a href="img/050.jpg"><div><img src="img-s/050.jpg" height="600" alt="" uk-img></div>
+  <a href="img/032.jpg"><div><img src="img-s/032.jpg" height="600" alt="" uk-img></div>
+
+  <a href="img/035.jpg"><div><img src="img-s/035.jpg" height="600" alt="" uk-img></div>
+  <a href="img/064.jpg"><div><img src="img-s/064.jpg" height="600" alt="" uk-img></div>
+  <a href="img/013.jpg"><div><img src="img-s/013.jpg" height="600" alt="" uk-img></div>
+
+  <a href="img/066.jpg"><div><img src="img-s/066.jpg" height="600" alt="" uk-img></div>
+  <a href="img/057.jpg"><div><img src="img-s/057.jpg" height="600" alt="" uk-img></div>
+  <a href="img/067.jpg"><div><img src="img-s/067.jpg" height="600" alt="" uk-img></div>
+  <a href="img/059.jpg"><div><img src="img-s/059.jpg" height="600" alt="" uk-img></div>
+
+  <a href="img/078.jpg"><div><img src="img-s/078.jpg" height="600" alt="" uk-img></div>
+  <a href="img/074.jpg"><div><img src="img-s/074.jpg" height="600" alt="" uk-img></div>
+  <a href="img/079.jpg"><div><img src="img-s/079.jpg" height="600" alt="" uk-img></div>
+
+  <a href="img/008.jpg"><div><img src="img-s/008.jpg" height="600" alt="" uk-img></div>
+  <a href="img/038.jpg"><div><img src="img-s/038.jpg" height="600" alt="" uk-img></div>
+  <a href="img/092.jpg"><div><img src="img-s/092.jpg" height="600" alt="" uk-img></div>
+  <a href="img/039.jpg"><div><img src="img-s/039.jpg" height="600" alt="" uk-img></div>
+
+  <a href="img/058.jpg"><div><img src="img-s/058.jpg" height="600" alt="" uk-img></div>
+  <a href="img/060.jpg"><div><img src="img-s/060.jpg" height="600" alt="" uk-img></div>
+  <a href="img/065.jpg"><div><img src="img-s/065.jpg" height="600" alt="" uk-img></div>
+  <a href="img/094.jpg"><div><img src="img-s/094.jpg" height="600" alt="" uk-img></div>
+
+  <a href="img/022.jpg"><div><img src="img-s/022.jpg" height="600" alt="" uk-img></div>
+  <a href="img/042.jpg"><div><img src="img-s/042.jpg" height="600" alt="" uk-img></div>
+  <a href="img/040.jpg"><div><img src="img-s/040.jpg" height="600" alt="" uk-img></div>
+
+  <a href="img/051.jpg"><div><img src="img-s/051.jpg" height="600" alt="" uk-img></div>
+  <a href="img/014.jpg"><div><img src="img-s/014.jpg" height="600" alt="" uk-img></div>
+  <a href="img/012.jpg"><div><img src="img-s/012.jpg" height="600" alt="" uk-img></div>
+
+  <a href="img/024.jpg"><div><img src="img-s/024.jpg" height="600" alt="" uk-img></div>
+  <a href="img/043.jpg"><div><img src="img-s/043.jpg" height="600" alt="" uk-img></div>
+  <a href="img/036.jpg"><div><img src="img-s/036.jpg" height="600" alt="" uk-img></div>
+
+  <a href="img/002.jpg"><div><img src="img-s/002.jpg" height="600" alt="" uk-img></div>
+  <a href="img/009.jpg"><div><img src="img-s/009.jpg" height="600" alt="" uk-img></div>
+  <a href="img/005.jpg"><div><img src="img-s/005.jpg" height="600" alt="" uk-img></div>
+  <a href="img/004.jpg"><div><img src="img-s/004.jpg" height="600" alt="" uk-img></div>
+  
+    </div>
+    
+    
